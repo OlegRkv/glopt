@@ -1,8 +1,10 @@
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
+			item: 1,		
 			center: true,
 			margin: 10,
 			nav: true,
-			dots: true			
+			dots: false,			
+			loop: true			
 	});
 });
