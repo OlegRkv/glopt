@@ -7,4 +7,8 @@ $(document).ready(function(){
 			dots: false,			
 			loop: true			
 	});
+	$(".header-burger").click(function() {
+		$(".header-burger, .header-nav").toggleClass("active");
+		$("body").toggleClass("lock");
+	});
 });
