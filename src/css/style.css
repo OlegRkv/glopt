@@ -382,6 +382,34 @@ hr {
     font-size: 27px;
     margin-bottom: 50px;
   }
+  .header {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__subtitle {
+    font-size: 22px;
+  }
+  .header__subtitle_big {
+    font-size: 35px;
+  }
+  .header-offer__descr {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .header-offer-item {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    padding: 0 25px;
+  }
+  .header__button {
+    display: none;
+  }
 }
 
 .advantage {
@@ -398,6 +426,15 @@ hr {
   font-size: 16px;
   font-weight: 700;
   color: #ec644b;
+}
+
+@media screen and (max-width: 991px) {
+  .advantage-item {
+    margin-bottom: 25px;
+  }
+  .advantage-item__title {
+    font-size: 15px;
+  }
 }
 
 .work {
@@ -425,6 +462,28 @@ hr {
   font-size: 18px;
   font-weight: 700;
   color: #ec644b;
+}
+
+@media screen and (max-width: 991px) {
+  .work-list-item__img {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .work-list-item {
+    margin-bottom: 50px;
+  }
+  .work-list-item__descr {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .work-list-item__descr {
+    max-width: 100%;
+  }
 }
 
 .agent, .managers {
